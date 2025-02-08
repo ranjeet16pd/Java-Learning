@@ -1,20 +1,19 @@
 public class Array {
    
-
-   
-    public class MyArray{
-        int a;
-        int b;
-    }
     
     
    
    
     public static void main(String[] args){
-    MyArray arr=new MyArray();
-    for(int i=0;i<3;i++){
-        System.out.print(arr[i]+ " " );
-    }
+    
+        int arr[]={1,24,5,6,7};
+        int n=arr.length;
+
+        for(int i=0;i<n;i++){
+            System.out.print(arr[i]+" ");
+        }
+
+
 
     }
 
